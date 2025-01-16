@@ -8,16 +8,16 @@ const parseBoolean = (value, defaultValue) => {
 
 const config = {
   // Session Configuration
-  SESSION_ID: process.env.SESSION_ID || "Your Session Id",
+  SESSION_ID: process.env.SESSION_ID || "RCD-MD&134ZHMti",
   PREFIX: process.env.PREFIX || ".",
   
   // Auto Features
   AUTO_STATUS_SEEN: parseBoolean(process.env.AUTO_STATUS_SEEN, true),
   AUTO_STATUS_REACT: parseBoolean(process.env.AUTO_STATUS_REACT, true),
   AUTO_STATUS_REPLY: parseBoolean(process.env.AUTO_STATUS_REPLY, false),
-  AUTO_STATUS_REPLY_VOICE: parseBoolean(process.env.AUTO_STATUS_REPLY_VOICE, false),
+  STATUS_VOICE_REPLY: parseBoolean(process.env.STATUS_VOICE_REPLY, false),
   AUTO_STATUS_REPLY_VOICE_MULTI: parseBoolean(process.env.AUTO_STATUS_REPLY_VOICE_MULTI, false),
-  STATUS_READ_MSG: process.env.STATUS_READ_MSG || "*📍 Auto Status Seen Bot By RCD-MD-V3*",
+  STATUS_READ_MSG: process.env.STATUS_READ_MSG || "*📍 Auto Status Seen Bot By ravi ✓*",
 
   AUTO_DL: parseBoolean(process.env.AUTO_DL, false),
   AUTO_READ: parseBoolean(process.env.AUTO_READ, false),
