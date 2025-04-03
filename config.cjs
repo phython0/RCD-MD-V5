@@ -8,7 +8,7 @@ const parseBoolean = (value, defaultValue) => {
 
 const config = {
   // Session Configuration
-  SESSION_ID: process.env.SESSION_ID || "RCD-MD&134ZHMti",
+  SESSION_ID: process.env.SESSION_ID || "RCD-MD&TeGYg4jc",
   PREFIX: process.env.PREFIX || ".",
   
   // Auto Features
